@@ -33,6 +33,13 @@ import { MISSING_PROJECT_ID } from './tw-missing-project';
 import VM from 'scratch-vm';
 import * as progressMonitor from '../components/loader/tw-progress-monitor';
 
+// Older renderer builds do not expose this optional privacy helper.
+const setPrivateSkinAccess = (vm, enabled) => {
+    if (vm && vm.runtime && vm.runtime.renderer && vm.runtime.renderer.setPrivateSkinAccess) {
+        vm.runtime.renderer.setPrivateSkinAccess(enabled);
+    }
+};
+
 // TW: Temporary hack for project tokens
 const fetchProjectToken = projectId => {
     if (projectId === '0') {
@@ -302,7 +309,7 @@ const ProjectFetcherHOC = function (WrappedComponent) {
                 }
                 assetPromise = progressMonitor.fetchWithProgress(projectUrl)
                     .then(r => {
-                        this.props.vm.runtime.renderer.setPrivateSkinAccess(false);
+                        setPrivateSkinAccess(this.props.vm, false);
                         if (!r.ok) {
                             throw new Error(`Request returned status ${r.status}`);
                         }
@@ -318,7 +325,7 @@ const ProjectFetcherHOC = function (WrappedComponent) {
                     projectUrl = `https://projects.penguinmod.com/api/v1/projects/getprojectwrapper?safe=true&projectId=${projectId}`
                     assetPromise = progressMonitor.fetchWithProgress(projectUrl)
                         .then(async r => {
-                            this.props.vm.runtime.renderer.setPrivateSkinAccess(false);
+                            setPrivateSkinAccess(this.props.vm, false);
                             if (!r.ok) {
                                 throw new Error(`Request returned status ${r.status}`);
                             }
