@@ -18,7 +18,9 @@ var postcssImport = require('postcss-import');
 
 const STATIC_PATH = process.env.STATIC_PATH || '/static';
 
-let root = process.env.ROOT || '';
+// The deployed site is served from the domain root. An explicit public path
+// keeps split chunks loading correctly on GitHub Pages custom domains.
+let root = process.env.ROOT || '/';
 if (root.length > 0 && !root.endsWith('/')) {
     throw new Error('If ROOT is defined, it must have a trailing slash.');
 }
