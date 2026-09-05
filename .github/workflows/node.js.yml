@@ -29,9 +29,9 @@ jobs:
       with:
         node-version: 16.x
     - name: Install pnpm
-      run: npm install --global pnpm@6
+      run: npm install --global pnpm@7.33.7
     - name: Install dependencies
-      run: pnpm install --no-frozen-lockfile --shamefully-hoist
+      run: pnpm install --frozen-lockfile --shamefully-hoist
     - name: Build site
       run: NODE_ENV=production pnpm exec webpack --bail
     - name: Upload artifact

@@ -9,6 +9,7 @@ specifiers:
   '@babel/preset-env': 7.14.8
   '@babel/preset-react': 7.14.5
   '@turbowarp/scratch-l10n': ^3.999.20221220224553
+  PenguinMod-MarkDown: github:PenguinMod/PenguinMod-MarkDown#master
   arraybuffer-loader: ^1.0.8
   autoprefixer: ^9.8.8
   babel-core: 7.0.0-bridge.0
@@ -43,12 +44,15 @@ specifiers:
   jest: 21.2.1
   jest-junit: 7.0.0
   js-base64: 2.4.9
+  jszip: ^3.10.1
   keymirror: 0.1.1
+  localforage: ^1.10.0
   lodash.bindall: 4.4.0
   lodash.debounce: 4.0.8
   lodash.defaultsdeep: 4.6.1
   lodash.omit: 4.5.0
   lodash.throttle: 4.0.1
+  md: ^0.6.0
   minilog: 3.1.0
   mkdirp: 1.0.3
   omggif: 1.0.9
@@ -57,12 +61,13 @@ specifiers:
   postcss-loader: ^3.0.0
   postcss-simple-vars: ^5.0.2
   prop-types: ^15.8.1
+  protobufjs: ^7.3.2
   query-string: ^5.1.1
   raf: 3.4.1
   raw-loader: ^0.5.1
-  react: 16.2.0
+  react: 16.14.0
   react-contextmenu: 2.9.4
-  react-dom: 16.2.1
+  react-dom: 16.14.0
   react-draggable: 3.0.5
   react-ga: 2.5.3
   react-intl: 2.9.0
@@ -74,21 +79,21 @@ specifiers:
   react-string-replace: ^0.4.4
   react-style-proptype: 3.2.2
   react-tabs: 2.3.0
-  react-test-renderer: 16.2.0
+  react-test-renderer: 16.14.0
   react-tooltip: 3.8.0
   react-virtualized: 9.20.1
   redux: 3.7.2
   redux-mock-store: 1.5.3
   redux-throttle: 0.1.1
   rimraf: 2.7.1
-  scratch-audio: github:TurboWarp/scratch-audio#develop
-  scratch-blocks: github:PenguinMod/PenguinMod-Blocks#develop-builds
-  scratch-paint: github:TurboWarp/scratch-paint#develop
-  scratch-render: github:PenguinMod/PenguinMod-Render#develop
+  scratch-audio: github:Dinosaurmod/dinosaurmod-audio#develop
+  scratch-blocks: github:Dinosaurmod/Dinosaurmod-Blocks#develop-builds
+  scratch-paint: github:Dinosaurmod/Dinosaurmod-Paint#develop
+  scratch-render: github:Dinosaurmod/Dinosaurmod-Render#develop
   scratch-render-fonts: 1.0.0-prerelease.20210401210003
-  scratch-storage: github:TurboWarp/scratch-storage#develop
+  scratch-storage: github:PenguinMod/PenguinMod-Storage#develop
   scratch-svg-renderer: github:TurboWarp/scratch-svg-renderer#develop
-  scratch-vm: github:Penguinmod/Penguinmod-Vm#develop
+  scratch-vm: github:Dinosaurmod/Dinosaurmod-Vm#develop
   selenium-webdriver: 3.6.0
   startaudiocontext: 1.2.1
   style-loader: ^0.23.1
@@ -107,6 +112,7 @@ specifiers:
 
 dependencies:
   '@turbowarp/scratch-l10n': 3.999.20221220224553
+  PenguinMod-MarkDown: github.com/PenguinMod/PenguinMod-MarkDown/b495ed9a54d7c2cd6a9b0ea1120b726fa9be6a91
   arraybuffer-loader: 1.0.8
   autoprefixer: 9.8.8
   base64-loader: 1.0.0
@@ -124,11 +130,15 @@ dependencies:
   intl: 1.2.5
   intl-messageformat: 2.2.0
   js-base64: 2.4.9
+  jszip: 3.10.1
   keymirror: 0.1.1
+  localforage: 1.10.0
   lodash.bindall: 4.4.0
   lodash.debounce: 4.0.8
+  lodash.defaultsdeep: 4.6.1
   lodash.omit: 4.5.0
   lodash.throttle: 4.0.1
+  md: 0.6.0
   minilog: 3.1.0
   omggif: 1.0.9
   papaparse: 5.3.0
@@ -136,34 +146,35 @@ dependencies:
   postcss-loader: 3.0.0
   postcss-simple-vars: 5.0.2
   prop-types: 15.8.1
+  protobufjs: 7.6.6
   query-string: 5.1.1
   raw-loader: 0.5.1
-  react: 16.2.0
-  react-contextmenu: 2.9.4_ohw3tt6xykf4vnsguhiu75pxvm
-  react-dom: 16.2.1_react@16.2.0
-  react-draggable: 3.0.5_kxouedps7ii4ilphekzhaact3q
+  react: 16.14.0
+  react-contextmenu: 2.9.4_ccrd4luiijsxnlhe6bgkvyy2z4
+  react-dom: 16.14.0_react@16.14.0
+  react-draggable: 3.0.5_wcqkhtmu7mswc6yz4uyexck3ty
   react-ga: 2.5.3
-  react-intl: 2.9.0_7b6ongk543eygvalcfff2i4m24
+  react-intl: 2.9.0_4vyaxm4rsh2mpfdenvlqy7kmya
   react-intl-redux: 0.7.0_3dwfshyg73a42s74ypg3jjw4ym
-  react-modal: 3.9.1_kxouedps7ii4ilphekzhaact3q
+  react-modal: 3.9.1_wcqkhtmu7mswc6yz4uyexck3ty
   react-popover: 0.5.10
-  react-redux: 5.0.7_react@16.2.0+redux@3.7.2
-  react-responsive: 4.1.0_react@16.2.0
+  react-redux: 5.0.7_react@16.14.0+redux@3.7.2
+  react-responsive: 4.1.0_react@16.14.0
   react-string-replace: 0.4.4
   react-style-proptype: 3.2.2
-  react-tabs: 2.3.0_react@16.2.0
-  react-tooltip: 3.8.0_kxouedps7ii4ilphekzhaact3q
-  react-virtualized: 9.20.1_kxouedps7ii4ilphekzhaact3q
+  react-tabs: 2.3.0_react@16.14.0
+  react-tooltip: 3.8.0_wcqkhtmu7mswc6yz4uyexck3ty
+  react-virtualized: 9.20.1_wcqkhtmu7mswc6yz4uyexck3ty
   redux: 3.7.2
   redux-throttle: 0.1.1
-  scratch-audio: github.com/TurboWarp/scratch-audio/30e31c4c5ea4b1c85fe4d579c7fef847fe64ff7b
-  scratch-blocks: github.com/PenguinMod/PenguinMod-Blocks/5a2f22355274da8a07e3ccb556fdb4d4362eabb7
-  scratch-paint: github.com/TurboWarp/scratch-paint/b99d6e0f23d8e7a1d68d279e6af4c1da693ede31_6k6rspeql5cezdcqbrutshycvq
-  scratch-render: github.com/PenguinMod/PenguinMod-Render/96ec5550992d75f9f688222d7b17a29f8db4698a_jgmwvpsb5yiknzfs7zehpymxpy
+  scratch-audio: github.com/Dinosaurmod/dinosaurmod-audio/04c04aa0d7c085d87b4ca678e2654a0cf490ffb4
+  scratch-blocks: github.com/Dinosaurmod/Dinosaurmod-Blocks/c26b39ff9acc9550e1d8857c8edb2195763dee9f
+  scratch-paint: github.com/Dinosaurmod/Dinosaurmod-Paint/0612c0912ec0b70568d24d5ee7abb9a7bbe52a3a_x55yfuywpzmu7mjw6gmxhm3h4e
+  scratch-render: github.com/Dinosaurmod/Dinosaurmod-Render/da1ef0aadcd52f4285bbca954be50dca277a01db_jgmwvpsb5yiknzfs7zehpymxpy
   scratch-render-fonts: 1.0.0-prerelease.20210401210003
-  scratch-storage: github.com/TurboWarp/scratch-storage/5392b136b2e6982231023bf4bf9c14c4b890dd46_webpack@4.46.0
-  scratch-svg-renderer: github.com/TurboWarp/scratch-svg-renderer/3aaf933b19b55d632b6319cb05ab276528b9964d_jgmwvpsb5yiknzfs7zehpymxpy
-  scratch-vm: github.com/Penguinmod/Penguinmod-Vm/e1363170a934a5e73d9725a321799da144b2d755_cnjjgryycnetjxj63hj6pfbvmu
+  scratch-storage: github.com/PenguinMod/PenguinMod-Storage/687019085e83fc83d39f3b96b41f229e8d95d6bc_webpack@4.46.0
+  scratch-svg-renderer: github.com/TurboWarp/scratch-svg-renderer/4c7292fb9a20b3927a3ead6643c0ca20249d12ff_jgmwvpsb5yiknzfs7zehpymxpy
+  scratch-vm: github.com/Dinosaurmod/Dinosaurmod-Vm/7cb2c0fa2770c4908200fe2b54ba799273140dc6_2kabdfj55hbqv3i3frnf3bwqfq
   startaudiocontext: 1.2.1
   style-loader: 0.23.1
   text-encoding: 0.7.0
@@ -185,7 +196,7 @@ devDependencies:
   babel-loader: 8.2.2_cc3ktak77r5uwh2rvqsd6gbqfe
   chromedriver: 105.0.0
   enzyme: 3.10.0
-  enzyme-adapter-react-16: 1.3.0_7fv4gqlsr7bikfb7u57sywpkoi
+  enzyme-adapter-react-16: 1.3.0_4mqc42wj3gplm4mwyl6cshjujq
   eslint: 5.16.0
   eslint-config-scratch: 6.0.0_u7hsx5z735ullojaurkhclki6u
   eslint-import-resolver-webpack: 0.11.1_6xu6wwhlfeclnuj765yjfnvytu
@@ -197,10 +208,9 @@ devDependencies:
   html-webpack-plugin: 4.5.2_webpack@4.46.0
   jest: 21.2.1
   jest-junit: 7.0.0
-  lodash.defaultsdeep: 4.6.1
   mkdirp: 1.0.3
   raf: 3.4.1
-  react-test-renderer: 16.2.0_react@16.2.0
+  react-test-renderer: 16.14.0_react@16.14.0
   redux-mock-store: 1.5.3
   rimraf: 2.7.1
   selenium-webdriver: 3.6.0
@@ -1380,6 +1390,11 @@ packages:
     dependencies:
       regenerator-runtime: 0.13.11
 
+  /@babel/runtime/7.29.7:
+    resolution: {integrity: sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==}
+    engines: {node: '>=6.9.0'}
+    dev: false
+
   /@babel/template/7.20.7:
     resolution: {integrity: sha512-8SegXApWe6VoNw0r9JHpSteLKTpTiLZ4rMlGIm9JQ18KiCtyQiAMEazujAHrUS5flrcqYZa75ukev3P6QmUwUw==}
     engines: {node: '>=6.9.0'}
@@ -1505,9 +1520,42 @@ packages:
       rimraf: 3.0.2
     dev: false
 
-  /@scratch/paper/0.11.20200728195508:
-    resolution: {integrity: sha512-cphYw/y/l36UJ8fv/LXyK+lHlxMXtoydJUsgA4u5QnaUaSZYepuSHik6PewJGT4qvaPwT5ImvHWwX2kElWXvoQ==}
-    engines: {node: '>=8.0.0'}
+  /@protobufjs/aspromise/1.1.2:
+    resolution: {integrity: sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==}
+    dev: false
+
+  /@protobufjs/base64/1.1.2:
+    resolution: {integrity: sha512-AZkcAA5vnN/v4PDqKyMR5lx7hZttPDgClv83E//FMNhR2TMcLUhfRUBHCmSl0oi9zMgDDqRUJkSxO3wm85+XLg==}
+    dev: false
+
+  /@protobufjs/codegen/2.0.5:
+    resolution: {integrity: sha512-zgXFLzW3Ap33e6d0Wlj4MGIm6Ce8O89n/apUaGNB/jx+hw+ruWEp7EwGUshdLKVRCxZW12fp9r40E1mQrf/34g==}
+    dev: false
+
+  /@protobufjs/eventemitter/1.1.1:
+    resolution: {integrity: sha512-vW1GmwMZNnL+gMRaovlh9yZX74kc+TTU3FObkkurpMaRtBfLP3ldjS9KQWlwZgraRE0+dheEEoAxdzcJQ8eXZg==}
+    dev: false
+
+  /@protobufjs/fetch/1.1.1:
+    resolution: {integrity: sha512-GpptLrs57adMSuHi3VNj0mAF8dwh36LMaYF6XyJ6JMWlVsc+t42tm1HSEDmOs3A8fC9yyeisgLhsTVQokOZ0zw==}
+    dependencies:
+      '@protobufjs/aspromise': 1.1.2
+    dev: false
+
+  /@protobufjs/float/1.0.2:
+    resolution: {integrity: sha512-Ddb+kVXlXst9d+R9PfTIxh1EdNkgoRe5tOX6t01f1lYWOvJnSPDBlG241QLzcyPdoNTsblLUdujGSE4RzrTZGQ==}
+    dev: false
+
+  /@protobufjs/path/1.1.2:
+    resolution: {integrity: sha512-6JOcJ5Tm08dOHAbdR3GrvP+yUUfkjG5ePsHYczMFLq3ZmMkAD98cDgcT2iA1lJ9NVwFd4tH/iSSoe44YWkltEA==}
+    dev: false
+
+  /@protobufjs/pool/1.1.0:
+    resolution: {integrity: sha512-0kELaGSIDBKvcgS4zkjz1PeddatrjYcmMWOlAuAPwAeccUrPHdUqo/J6LiymHHEiJT5NrF1UVwxY14f+fy4WQw==}
+    dev: false
+
+  /@protobufjs/utf8/1.1.2:
+    resolution: {integrity: sha512-b1UQwcEZ4yCnMCD8DAL1VlbvBJE9/IX4FTIp7BG1xYpf29SLazLSrqUkj4w7Y5y7cCVP6E5tcqqcI0xemPkHug==}
     dev: false
 
   /@testim/chrome-version/1.1.3:
@@ -1518,12 +1566,25 @@ packages:
     resolution: {integrity: sha512-9nWywp+0SH7ROVzQPQQO9gMWBikahsqyMWp1Ku8VV0q+q6bnx6dS0aNPTjqTtF2GHAY55hcREsqKzaoUdWBSwg==}
     dev: false
 
+  /@turbowarp/nanolog/0.2.0:
+    resolution: {integrity: sha512-texcM9oxfEsADVlVDR5UhLkYclPKsV9mytJh+9pHHonNcUrxRVGF6FkJTzWO/Hl5NafU1crSdw737nqKE3atSA==}
+    dev: false
+
+  /@turbowarp/paper/0.12.202505131813:
+    resolution: {integrity: sha512-phLfQ9oJvXZvrnATbxRDB80reaS1BJiBO4QFGfOPkIIJzn41RR+TUxwNZdCQBkoTpnMA+jfr6o1LMu6ZvW2R9Q==}
+    engines: {node: '>=8.0.0'}
+    dev: false
+
   /@turbowarp/scratch-l10n/3.999.20221220224553:
     resolution: {integrity: sha512-51k24yypKuslHmIikF+XJAC/FokoZ1lJUQy7fGbDjc5OBIgB/dJKIzp2d77X6G9Qq0m5d7C6mcni7dnkIHWF2w==}
     dependencies:
       babel-plugin-react-intl: 3.5.1
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@turbowarp/startaudiocontext/1.0.0:
+    resolution: {integrity: sha512-BJ7EVYVwuTH/Tr6tEaLaXA5TCi8qKxNWsxohNqxIEDzykN+FscgOALhEMUlNc6vgcmOi7yQFJ82Prx9bnY5DgA==}
     dev: false
 
   /@types/babel__core/7.1.20:
@@ -1596,7 +1657,6 @@ packages:
 
   /@types/node/18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
-    dev: true
 
   /@types/source-list-map/0.1.2:
     resolution: {integrity: sha512-K5K+yml8LTo9bWJI/rECfIPrGgxdpeNbj+d53lwN4QjW1MCwlkhUms+gtdzigTeUyBr09+u8BwOIY3MXvHdcsA==}
@@ -1605,6 +1665,12 @@ packages:
   /@types/tapable/1.0.8:
     resolution: {integrity: sha512-ipixuVrh2OdNmauvtT51o3d8z12p6LtFW9in7U79der/kwejjdNchQC5UMn5u/KxNoM7VHHOs/l8KS8uHxhODQ==}
     dev: true
+
+  /@types/trusted-types/2.0.7:
+    resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
+    requiresBuild: true
+    dev: false
+    optional: true
 
   /@types/uglify-js/3.17.1:
     resolution: {integrity: sha512-GkewRA4i5oXacU/n4MA9+bLgt5/L3F1mKrYvFGm7r2ouLXhRKjuWwo9XHNnbx6WF3vlGW21S3fCvgqxvxXXc5g==}
@@ -1852,7 +1918,7 @@ packages:
       clean-stack: 2.2.0
       indent-string: 4.0.0
 
-  /airbnb-prop-types/2.16.0_react@16.2.0:
+  /airbnb-prop-types/2.16.0_react@16.14.0:
     resolution: {integrity: sha512-7WHOFolP/6cS96PhKNrslCLMYAI8yB1Pp6u6XmxozQOiZbsI5ycglZr5cHhBFfuRcQQjzCMith5ZPZdYiJCxUg==}
     peerDependencies:
       react: ^0.14 || ^15.0.0 || ^16.0.0-alpha
@@ -1865,7 +1931,7 @@ packages:
       object.entries: 1.1.6
       prop-types: 15.8.1
       prop-types-exact: 1.2.0
-      react: 16.2.0
+      react: 16.14.0
       react-is: 16.13.1
     dev: true
 
@@ -2116,9 +2182,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /asap/2.0.6:
-    resolution: {integrity: sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==}
-
   /asn1.js/5.4.1:
     resolution: {integrity: sha512-+I//4cYPccV8LdmBLiX8CYvf9Sp3vQsrqu2QNXRcrbiWvcx/UdlFiqUJJzxRQxgsZmvhXhn4cSKeSmoFjVdupA==}
     dependencies:
@@ -2181,11 +2244,12 @@ packages:
     engines: {node: '>= 4.5.0'}
     hasBin: true
 
-  /audio-context/1.0.1:
-    resolution: {integrity: sha512-b7ZmHGyjcAI3KmshPa4YSPxPbjglZQtKfZtzqhUfE3VeoANTsNffywkmujI32Sj31Aku/aB9s3BW4r3nmTF88g==}
-    deprecated: Depends on Web-Audio-API implementation. Use either web-audio-api, web-audio-js or web-audio-engine package.
+  /automation-events/7.1.19:
+    resolution: {integrity: sha512-cD+TLhJTI0q4AI3ktd353lrGZiVa9AchowSDzQzzGjSoYe22js4vlS32VUtWuaulghi1Yq0KYNWKk9wWuGymPA==}
+    engines: {node: '>=18.2.0'}
     dependencies:
-      global: 4.4.0
+      '@babel/runtime': 7.29.7
+      tslib: 2.8.1
     dev: false
 
   /autoprefixer/9.8.8:
@@ -2217,7 +2281,7 @@ packages:
   /axios/0.27.2:
     resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
     dependencies:
-      follow-redirects: 1.15.2_debug@4.3.4
+      follow-redirects: 1.15.2
       form-data: 4.0.0
     transitivePeerDependencies:
       - debug
@@ -2793,7 +2857,7 @@ packages:
       mississippi: 2.0.0
       mkdirp: 0.5.6
       move-concurrently: 1.0.1
-      promise-inflight: 1.0.1
+      promise-inflight: 1.0.1_bluebird@3.7.2
       rimraf: 2.7.1
       ssri: 5.3.0
       unique-filename: 1.1.1
@@ -2813,7 +2877,7 @@ packages:
       mississippi: 3.0.0
       mkdirp: 0.5.6
       move-concurrently: 1.0.1
-      promise-inflight: 1.0.1
+      promise-inflight: 1.0.1_bluebird@3.7.2
       rimraf: 2.7.1
       ssri: 6.0.2
       unique-filename: 1.1.1
@@ -2912,6 +2976,10 @@ packages:
 
   /caniuse-lite/1.0.30001442:
     resolution: {integrity: sha512-239m03Pqy0hwxYPYR5JwOIxRJfLTWtle9FV8zosfV5pHg+/51uD4nxcUlM8+mWWGfwKtt8lJNHnD3cWw9VZ6ow==}
+
+  /cannon-es/0.20.0:
+    resolution: {integrity: sha512-eZhWTZIkFOnMAJOgfXJa9+b3kVlvG+FX4mdkpePev/w/rP5V8NRquGyEozcjPfEoXUlb+p7d9SUcmDSn14prOA==}
+    dev: false
 
   /canvas-toBlob/1.0.0:
     resolution: {integrity: sha512-oU5bawygt/Nef9F+C49eTFmzXzz6yKdGqn6J1wn/LZQF5ulnnZVm0KIZzik85I6tjCbZFH6aa47j4bU2tkHxRw==}
@@ -3187,6 +3255,10 @@ packages:
   /commondir/1.0.1:
     resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
 
+  /complex.js/2.4.3:
+    resolution: {integrity: sha512-UrQVSUur14tNX6tiP4y8T4w4FeJAX3bi2cIv0pu/DTLFNxoq7z2Yh83Vfzztj6Px3X/lubqQ9IrPp7Bpn6p4MQ==}
+    dev: false
+
   /component-emitter/1.3.0:
     resolution: {integrity: sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==}
 
@@ -3308,10 +3380,6 @@ packages:
     dependencies:
       browserslist: 4.21.4
     dev: true
-
-  /core-js/1.2.7:
-    resolution: {integrity: sha512-ZiPp9pZlgxpWRu0M+YWbm6+aQ84XEfH1JRXvfOc/fILWI0VKhLC2LX13X1NYq4fULzLMq7Hfh43CSo2/aIaUPA==}
-    deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
 
   /core-js/2.3.0:
     resolution: {integrity: sha512-N41UFUZNqoTSGUSyL7kiStAkH31Hxq197A4Gp9MxTZfAd52pXod7VM7kWiRP0J0YpQDeaE4SLsb+2OGgtgvUEw==}
@@ -3569,6 +3637,10 @@ packages:
   /decamelize/1.2.0:
     resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
+
+  /decimal.js/10.6.0:
+    resolution: {integrity: sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==}
+    dev: false
 
   /decode-html/2.0.0:
     resolution: {integrity: sha512-lVJ+EBozhAXA2nSQG+xAgcD0P5K3uejnIIvM09uoQfS8AALkQ+HhHcEUvKovXi0EIpIZWjm0y8X7ULjaJpgY9w==}
@@ -3829,8 +3901,14 @@ packages:
       domelementtype: 2.3.0
     dev: true
 
-  /dompurify/2.2.7:
-    resolution: {integrity: sha512-jdtDffdGNY+C76jvodNTu9jt5yYj59vuTUyx+wXdzcSwAGTYZDAQkQ7Iwx9zcGrA4ixC1syU4H3RZROqRxokxg==}
+  /dompurify/2.5.9:
+    resolution: {integrity: sha512-i6mvVmWN4xo9LrhCOZrDgSs9noW6nOahbrmzjRbPF36YPyj5Ue5lgok0MHDWkG7xzpWFO2OYttXdzM7rJxHvNA==}
+    dev: false
+
+  /dompurify/3.4.14:
+    resolution: {integrity: sha512-dVoH9z+MY+C9IilgGCk3YfFqjLi3fChm2OiKJMzh6axrJ5qwxqWaZamgmHrpv22CN/KdbZJuGEGgfQoL00LTdg==}
+    optionalDependencies:
+      '@types/trusted-types': 2.0.7
     dev: false
 
   /domutils/1.7.0:
@@ -3918,11 +3996,6 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /encoding/0.1.13:
-    resolution: {integrity: sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==}
-    dependencies:
-      iconv-lite: 0.6.3
-
   /end-of-stream/1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
     dependencies:
@@ -3957,7 +4030,7 @@ packages:
     engines: {node: '>=0.12'}
     dev: true
 
-  /enzyme-adapter-react-16/1.3.0_7fv4gqlsr7bikfb7u57sywpkoi:
+  /enzyme-adapter-react-16/1.3.0_4mqc42wj3gplm4mwyl6cshjujq:
     resolution: {integrity: sha512-TRX+Y5QPreGmqfFU3bPsJUmqNZX9paQCmQ93kj7hnfQoZzufO/pahGN/OviWn60YcgaQojhf0AWv3PxrIDARbA==}
     peerDependencies:
       enzyme: ^3.0.0
@@ -3965,29 +4038,29 @@ packages:
       react-dom: ^16.0.0-0
     dependencies:
       enzyme: 3.10.0
-      enzyme-adapter-utils: 1.14.1_react@16.2.0
+      enzyme-adapter-utils: 1.14.1_react@16.14.0
       function.prototype.name: 1.1.5
       object.assign: 4.1.4
       object.values: 1.1.6
       prop-types: 15.8.1
-      react: 16.2.0
-      react-dom: 16.2.1_react@16.2.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       react-is: 16.13.1
-      react-test-renderer: 16.2.0_react@16.2.0
+      react-test-renderer: 16.14.0_react@16.14.0
     dev: true
 
-  /enzyme-adapter-utils/1.14.1_react@16.2.0:
+  /enzyme-adapter-utils/1.14.1_react@16.14.0:
     resolution: {integrity: sha512-JZgMPF1QOI7IzBj24EZoDpaeG/p8Os7WeBZWTJydpsH7JRStc7jYbHE4CmNQaLqazaGFyLM8ALWA3IIZvxW3PQ==}
     peerDependencies:
       react: 0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0
     dependencies:
-      airbnb-prop-types: 2.16.0_react@16.2.0
+      airbnb-prop-types: 2.16.0_react@16.14.0
       function.prototype.name: 1.1.5
       has: 1.0.3
       object.assign: 4.1.4
       object.fromentries: 2.0.6
       prop-types: 15.8.1
-      react: 16.2.0
+      react: 16.14.0
       semver: 5.7.1
     dev: true
 
@@ -4109,6 +4182,10 @@ packages:
   /escape-html/1.0.3:
     resolution: {integrity: sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==}
     dev: true
+
+  /escape-latex/1.2.0:
+    resolution: {integrity: sha512-nV5aVWW1K0wEiUIEdZ4erkGGH8mDxGyxSeqPzRNtWP7ataw+/olFObw7hujFWlVjNsaDFw5VZ5NzVSIqRgfTiw==}
+    dev: false
 
   /escape-string-regexp/1.0.5:
     resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
@@ -4680,17 +4757,6 @@ packages:
       bser: 2.1.1
     dev: true
 
-  /fbjs/0.8.18:
-    resolution: {integrity: sha512-EQaWFK+fEPSoibjNy8IxUtaFOMXcWsY0JaVrQoZR9zC8N2Ygf9iDITPWjUTVIax95b6I742JFLqASHfsag/vKA==}
-    dependencies:
-      core-js: 1.2.7
-      isomorphic-fetch: 2.2.1
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      promise: 7.3.1
-      setimmediate: 1.0.5
-      ua-parser-js: 0.7.32
-
   /fd-slicer/1.1.0:
     resolution: {integrity: sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==}
     dependencies:
@@ -4922,6 +4988,16 @@ packages:
       inherits: 2.0.4
       readable-stream: 2.3.7
 
+  /follow-redirects/1.15.2:
+    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: true
+
   /follow-redirects/1.15.2_debug@4.3.4:
     resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
     engines: {node: '>=4.0'}
@@ -5002,6 +5078,10 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
+  /fraction.js/4.3.4:
+    resolution: {integrity: sha512-pwiTgt0Q7t+GHZA4yaLjObx4vXmmdcS0iSJ19o8d/goUGgItX9UZWKWNnLHehxviD8wU2IWRsnR8cD5+yOJP2Q==}
+    dev: false
+
   /fragment-cache/0.2.1:
     resolution: {integrity: sha512-GMBAbW9antB8iZRHLoGw0b3HANt57diZYFO/HL1JGIC1MjKrdmhxvrJbupnVvpys0zsz7yBApXdQyfepKly2kA==}
     engines: {node: '>=0.10.0'}
@@ -5028,7 +5108,7 @@ packages:
   /fs-extra/5.0.0:
     resolution: {integrity: sha512-66Pm4RYbjzdyeuqudYqhFiNBbCIuI9kgRqLPSHIlXHidW8NIQtVdkM1yeZ4lXwuhbTETv3EUGMNHAAw6hiundQ==}
     dependencies:
-      graceful-fs: 4.1.11
+      graceful-fs: 4.2.10
       jsonfile: 4.0.0
       universalify: 0.1.2
     dev: true
@@ -5067,7 +5147,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+    deprecated: Upgrade to fsevents v2 to mitigate potential security issues
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -5270,13 +5350,6 @@ packages:
       process: 0.5.2
     dev: false
 
-  /global/4.4.0:
-    resolution: {integrity: sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==}
-    dependencies:
-      min-document: 2.19.0
-      process: 0.11.10
-    dev: false
-
   /globals/11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
     engines: {node: '>=4'}
@@ -5464,6 +5537,10 @@ packages:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
     dev: true
+
+  /heap/0.2.5:
+    resolution: {integrity: sha512-G7HLD+WKcrOyJP5VQwYZNC3Z6FcQ7YYjEFiFoIj8PfEr73mu421o8B1N5DKUcc8K37EsJ2XXWA8DtrDz/2dReg==}
+    dev: false
 
   /hmac-drbg/1.0.1:
     resolution: {integrity: sha512-Tti3gMqLdZfhOQY1Mzf/AanLiqh1WTiJgEj26ZuYQ9fbkLomzGchCws4FyrSd4VkpBfiNhaE1On+lOz894jvXg==}
@@ -5663,6 +5740,7 @@ packages:
 
   /hull.js/0.2.10:
     resolution: {integrity: sha512-UO3W30HxhWgeSpNKCdXt00xkwjRTGmhQaoZNP8ll509Nl+DP9juXE3wRGizihuop08FSB4xtAWIbWSe+RxEoog==}
+    deprecated: This package is unmaintained and vulnerable. Do not use it.
     dev: false
 
   /humanize-url/1.0.1:
@@ -5683,12 +5761,6 @@ packages:
     dependencies:
       safer-buffer: 2.1.2
     dev: true
-
-  /iconv-lite/0.6.3:
-    resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      safer-buffer: 2.1.2
 
   /icss-replace-symbols/1.1.0:
     resolution: {integrity: sha512-chIaY3Vh2mh2Q3RGXttaDIzeiPvaVXJ+C4DAh/w3c37SKZ/U6PGMmuicR2EQQp9bKG8zLMCl7I+PtIoOOPp8Gg==}
@@ -6213,6 +6285,7 @@ packages:
   /is-stream/1.1.0:
     resolution: {integrity: sha512-uQPm8kcs47jx38atAcWTVxyltQYoPT68y9aWYdV6yWXSyW8mzSat0TL6CiWdZeCdF3KrAvpVtnHbTv4RN+rqdQ==}
     engines: {node: '>=0.10.0'}
+    dev: true
 
   /is-string/1.0.7:
     resolution: {integrity: sha512-tE2UXzivje6ofPW7l23cjDOMa09gb7xlAqG6jG5ej6uPV32TlWP3NKPigtaGeHNu9fohccRYvIiZMfOOnOYUtg==}
@@ -6298,12 +6371,6 @@ packages:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
 
-  /isomorphic-fetch/2.2.1:
-    resolution: {integrity: sha512-9c4TNAKYXM5PRyVcwUZrF3W09nQ+sO7+jydgs4ZGW9dhsLG2VOlISJABombdQqQRXCwuYG3sYV/puGf5rp0qmA==}
-    dependencies:
-      node-fetch: 1.7.3
-      whatwg-fetch: 3.6.2
-
   /isstream/0.1.2:
     resolution: {integrity: sha512-Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==}
     dev: true
@@ -6376,6 +6443,10 @@ packages:
     dependencies:
       handlebars: 4.7.7
     dev: true
+
+  /javascript-natural-sort/0.7.1:
+    resolution: {integrity: sha512-nO6jcEfZWQXDhOiBtG2KvKyEptz7RVbpGP4vTD2hLBdmNQSsCiicO2Ioinv6UI4y9ukqnBpy+XZ9H6uLNgJTlw==}
+    dev: false
 
   /jest-changed-files/21.2.0:
     resolution: {integrity: sha512-+lCNP1IZLwN1NOIvBcV5zEL6GENK6TXrDj4UxWIeLvIsIDa+gf6J7hkqsW2qVVt/wvH65rVvcPwqXdps5eclTQ==}
@@ -6922,6 +6993,12 @@ packages:
       emojis-list: 3.0.0
       json5: 2.2.3
 
+  /localforage/1.10.0:
+    resolution: {integrity: sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg==}
+    dependencies:
+      lie: 3.1.1
+    dev: false
+
   /locate-path/2.0.0:
     resolution: {integrity: sha512-NCI2kiDkyR7VeEKm27Kda/iQHyKJe1Bu0FlTbYp3CqJu+9IFe9bLyAjMxf5ZDDbEg+iMPzB5zYyUTSm8wVTKmA==}
     engines: {node: '>=4'}
@@ -6966,7 +7043,7 @@ packages:
 
   /lodash.defaultsdeep/4.6.1:
     resolution: {integrity: sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==}
-    dev: true
+    dev: false
 
   /lodash.escape/4.0.1:
     resolution: {integrity: sha512-nXEOnb/jK9g0DYMr1/Xvq6l5xMD7GDG55+GSYIYmS0G4tBk/hURD4JR9WCavs04t33WmJx9kCyp9vJ+mr4BOUw==}
@@ -7016,6 +7093,10 @@ packages:
     engines: {node: '>= 0.6.0'}
     dev: true
 
+  /long/5.3.2:
+    resolution: {integrity: sha512-mNAgZ1GmyNhD7AuqnTG3/VQ26o760+ZYBPKjPvugO8+nLbYfX6TVpJPseBvopbdY+qpZ/lKUnmEc1LeZYS3QAA==}
+    dev: false
+
   /lookup-closest-locale/6.2.0:
     resolution: {integrity: sha512-/c2kL+Vnp1jnV6K6RpDTHK3dgg0Tu2VVp+elEiJpjfS1UyY7AjOYHohRug6wT0OpoX2qFgNORndE9RqesfVxWQ==}
     dev: false
@@ -7049,6 +7130,11 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
+    dev: false
+
+  /lz-string/1.5.0:
+    resolution: {integrity: sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==}
+    hasBin: true
     dev: false
 
   /magic-string/0.22.5:
@@ -7109,6 +7195,32 @@ packages:
     resolution: {integrity: sha512-rUxjysqif/BZQH2yhd5Aaq7vXMSx9NdEsQcyA07uEzIvxgI7zIr33gGsh+RU0/XjmQpCW7RsVof1vlkvQVCK5A==}
     dev: true
 
+  /mathjs/11.11.1:
+    resolution: {integrity: sha512-uWrwMrhU31TCqHKmm1yFz0C352njGUVr/I1UnpMOxI/VBTTbCktx/mREUXx5Vyg11xrFdg/F3wnMM7Ql/csVsQ==}
+    engines: {node: '>= 14'}
+    hasBin: true
+    dependencies:
+      '@babel/runtime': 7.29.7
+      complex.js: 2.4.3
+      decimal.js: 10.6.0
+      escape-latex: 1.2.0
+      fraction.js: 4.3.4
+      javascript-natural-sort: 0.7.1
+      seedrandom: 3.0.5
+      tiny-emitter: 2.1.0
+      typed-function: 4.2.2
+    dev: false
+
+  /matter-js/0.20.0:
+    resolution: {integrity: sha512-iC9fYR7zVT3HppNnsFsp9XOoQdQN2tUyfaKg4CHLH8bN+j6GT4Gw7IH2rP0tflAebrHFw730RR3DkVSZRX8hwA==}
+    dev: false
+
+  /md/0.6.0:
+    resolution: {integrity: sha512-dg63h89eAeNtubkGRLQ3/mkwis8Ye7uyZ7U0sMxFYx00231VKIb09PfoEH/Gdd2NIc+iSTDYCforOmT08JHsOA==}
+    dependencies:
+      slugo: 0.2.3
+    dev: false
+
   /md5.js/1.3.5:
     resolution: {integrity: sha512-xitP+WxNPcTTOgnTJcrhM0xvdPepipPSf3I8EIpGKeFLjt3PlJLIDG3u8EX53ZIubkb+5U2+3rELYpEhHhzdkg==}
     dependencies:
@@ -7162,6 +7274,10 @@ packages:
   /merge2/1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
+
+  /mersenne-twister/1.1.0:
+    resolution: {integrity: sha512-mUYWsMKNrm4lfygPkL3OfGzOPTR2DBlTkBNHM//F6hGp8cLThY897crAlk3/Jo17LEOOjQUrNAx6DvgO77QJkA==}
+    dev: false
 
   /methods/1.1.2:
     resolution: {integrity: sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w==}
@@ -7520,12 +7636,6 @@ packages:
       lower-case: 2.0.2
       tslib: 2.4.1
     dev: true
-
-  /node-fetch/1.7.3:
-    resolution: {integrity: sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==}
-    dependencies:
-      encoding: 0.1.13
-      is-stream: 1.1.0
 
   /node-forge/0.10.0:
     resolution: {integrity: sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==}
@@ -8082,6 +8192,12 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
 
+  /pathfinding/0.4.18:
+    resolution: {integrity: sha512-R0TGEQ9GRcFCDvAWlJAWC+KGJ9SLbW4c0nuZRcioVlXVTlw+F5RvXQ8SQgSqI9KXWC1ew95vgmIiyaWTlCe9Ag==}
+    dependencies:
+      heap: 0.2.5
+    dev: false
+
   /pbkdf2/3.1.2:
     resolution: {integrity: sha512-iuh7L6jA7JEGu2WxDwtQP1ddOpaJNC4KlDEFfdQajSGgGPNi4OyDc2R7QnbY2bR9QjBVGwgvTdNJZoE7RaxUMA==}
     engines: {node: '>=0.12'}
@@ -8161,6 +8277,13 @@ packages:
     dependencies:
       find-up: 2.1.0
     dev: true
+
+  /pmp-protobuf/1.8.5:
+    resolution: {integrity: sha512-OHygmQFuHHV6EYROwG6gdBegHiwIvWeYr/g/XdZP2favuivOFa8lpLb/RHdsPFfcnrIDQ8srBVsvSpZK/6w4Cw==}
+    dependencies:
+      jszip: 3.10.1
+      protobufjs: 7.6.6
+    dev: false
 
   /pnpm/7.22.0:
     resolution: {integrity: sha512-dkhne1O1ktNz/Cn/GZU5wnjhP/aNEfmJGW5UdILyDnptgw84jauOf2Mk5jTe3gp4OZWZN1szcBrjyOZ7Uxxilw==}
@@ -8340,11 +8463,17 @@ packages:
     peerDependenciesMeta:
       bluebird:
         optional: true
+    dev: false
 
-  /promise/7.3.1:
-    resolution: {integrity: sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==}
+  /promise-inflight/1.0.1_bluebird@3.7.2:
+    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
+    peerDependencies:
+      bluebird: '*'
+    peerDependenciesMeta:
+      bluebird:
+        optional: true
     dependencies:
-      asap: 2.0.6
+      bluebird: 3.7.2
 
   /prop-types-exact/1.2.0:
     resolution: {integrity: sha512-K+Tk3Kd9V0odiXFP9fwDHUYRyvK3Nun3GVyPapSIs5OBkITAm15W0CPFD/YKTkMUAbc0b9CUwRQp2ybiBIq+eA==}
@@ -8360,6 +8489,24 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+
+  /protobufjs/7.6.6:
+    resolution: {integrity: sha512-dYDWdjSl5RNb7SgPxGQcRU+GtvP7s2fpkrY0r432PcOIaZ0/rBcxEZnQN67iJhFuQiVw754JDoPruPCNdGsbjg==}
+    engines: {node: '>=12.0.0'}
+    requiresBuild: true
+    dependencies:
+      '@protobufjs/aspromise': 1.1.2
+      '@protobufjs/base64': 1.1.2
+      '@protobufjs/codegen': 2.0.5
+      '@protobufjs/eventemitter': 1.1.1
+      '@protobufjs/fetch': 1.1.1
+      '@protobufjs/float': 1.0.2
+      '@protobufjs/path': 1.1.2
+      '@protobufjs/pool': 1.1.0
+      '@protobufjs/utf8': 1.1.2
+      '@types/node': 18.11.18
+      long: 5.3.2
+    dev: false
 
   /proxy-addr/2.0.7:
     resolution: {integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==}
@@ -8426,6 +8573,10 @@ packages:
   /q/1.5.1:
     resolution: {integrity: sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==}
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    deprecated: |-
+      You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
+      (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
     dev: false
 
   /qs/6.11.0:
@@ -8539,7 +8690,7 @@ packages:
     resolution: {integrity: sha512-sf7oGoLuaYAScB4VGr0tzetsYlS8EJH6qnTCfQ/WVEa89hALQ4RQfCKt5xCyPQKPDUbVUAIP1QsxAwfAjlDp7Q==}
     dev: false
 
-  /react-contextmenu/2.9.4_ohw3tt6xykf4vnsguhiu75pxvm:
+  /react-contextmenu/2.9.4_ccrd4luiijsxnlhe6bgkvyy2z4:
     resolution: {integrity: sha512-ma4YQw4J7JNv8L8mMVd1NHHbvH3+gaK/rQ6FC5Tft7OCUweKi7PHqHEE0fDF2009FLSGoV5JnjPnTTEyThqaJg==}
     peerDependencies:
       prop-types: ^15.0.0
@@ -8549,22 +8700,22 @@ packages:
       classnames: 2.2.6
       object-assign: 4.1.1
       prop-types: 15.8.1
-      react: 16.2.0
-      react-dom: 16.2.1_react@16.2.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
     dev: false
 
-  /react-dom/16.2.1_react@16.2.0:
-    resolution: {integrity: sha512-0ujGgYnpX0GlaAjUfwU7ddy0DjuzPmTHHi2SlPolGv7hAyUpK7XA7WZcxit5ZcU7cW5QU1HJjlS3eMn42tSfYQ==}
+  /react-dom/16.14.0_react@16.14.0:
+    resolution: {integrity: sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==}
     peerDependencies:
-      react: ^16.0.0
+      react: ^16.14.0
     dependencies:
-      fbjs: 0.8.18
       loose-envify: 1.4.0
       object-assign: 4.1.1
       prop-types: 15.8.1
-      react: 16.2.0
+      react: 16.14.0
+      scheduler: 0.19.1
 
-  /react-draggable/3.0.5_kxouedps7ii4ilphekzhaact3q:
+  /react-draggable/3.0.5_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-qo76q6+pafyGllbmfc+CgWfOkwY9v3UoJa3jp6xG2vdsRY8uJTN1kqNievLj0uVNjEqCvZ0OFiEBxlAJNj3OTg==}
     peerDependencies:
       react: '>= 16.3.0'
@@ -8572,15 +8723,15 @@ packages:
     dependencies:
       classnames: 2.2.6
       prop-types: 15.8.1
-      react: 16.2.0
-      react-dom: 16.2.1_react@16.2.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
     dev: false
 
   /react-ga/2.5.3:
     resolution: {integrity: sha512-25wvPv1PVLDLhw1gEYP33h0V2sJHahKMfUCAxhq8JPYmNQwx1fcjJAkJk+WmSqGN93lHLhExDkxy3SQizQnx3A==}
     optionalDependencies:
       prop-types: 15.8.1
-      react: 16.2.0
+      react: 16.14.0
     dev: false
 
   /react-intl-redux/0.7.0_3dwfshyg73a42s74ypg3jjw4ym:
@@ -8590,11 +8741,11 @@ packages:
       react-redux: ^5.0.1
     dependencies:
       prop-types: 15.8.1
-      react-intl: 2.9.0_7b6ongk543eygvalcfff2i4m24
-      react-redux: 5.0.7_react@16.2.0+redux@3.7.2
+      react-intl: 2.9.0_4vyaxm4rsh2mpfdenvlqy7kmya
+      react-redux: 5.0.7_react@16.14.0+redux@3.7.2
     dev: false
 
-  /react-intl/2.9.0_7b6ongk543eygvalcfff2i4m24:
+  /react-intl/2.9.0_4vyaxm4rsh2mpfdenvlqy7kmya:
     resolution: {integrity: sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==}
     peerDependencies:
       prop-types: ^15.5.4
@@ -8606,7 +8757,7 @@ packages:
       intl-relativeformat: 2.2.0
       invariant: 2.2.4
       prop-types: 15.8.1
-      react: 16.2.0
+      react: 16.14.0
     dev: false
 
   /react-is/16.13.1:
@@ -8616,7 +8767,7 @@ packages:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
     dev: false
 
-  /react-modal/3.9.1_kxouedps7ii4ilphekzhaact3q:
+  /react-modal/3.9.1_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-k+TUkhGWpIVHLsEyjNmlyOYL0Uz03fNZvlkhCImd1h+6fhNgTi6H6jexVXPVhD2LMMDzJyfugxMN+APN/em+eQ==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0 || ^16
@@ -8624,8 +8775,8 @@ packages:
     dependencies:
       exenv: 1.2.2
       prop-types: 15.8.1
-      react: 16.2.0
-      react-dom: 16.2.1_react@16.2.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       react-lifecycles-compat: 3.0.4
       warning: 4.0.3
     dev: false
@@ -8641,7 +8792,7 @@ packages:
       - supports-color
     dev: false
 
-  /react-redux/5.0.7_react@16.2.0+redux@3.7.2:
+  /react-redux/5.0.7_react@16.14.0+redux@3.7.2:
     resolution: {integrity: sha512-5VI8EV5hdgNgyjfmWzBbdrqUkrVRKlyTKk1sGH3jzM2M2Mhj/seQgPXaz6gVAj2lz/nz688AdTqMO18Lr24Zhg==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0-0 || ^16.0.0-0
@@ -8653,11 +8804,11 @@ packages:
       lodash-es: 4.17.21
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 16.2.0
+      react: 16.14.0
       redux: 3.7.2
     dev: false
 
-  /react-responsive/4.1.0_react@16.2.0:
+  /react-responsive/4.1.0_react@16.14.0:
     resolution: {integrity: sha512-ZuDraf0qsJlyiTwzeva+foHx83IP6SIhru9o7BvMwQ4ZHjRIL5WjdgVNNrKSRbmeWO9rEJoMpabei/5lJn8KaA==}
     engines: {node: '>= 0.10'}
     peerDependencies:
@@ -8666,7 +8817,7 @@ packages:
       hyphenate-style-name: 1.0.4
       matchmediaquery: 0.2.1
       prop-types: 15.8.1
-      react: 16.2.0
+      react: 16.14.0
     dev: false
 
   /react-string-replace/0.4.4:
@@ -8682,28 +8833,29 @@ packages:
       prop-types: 15.8.1
     dev: false
 
-  /react-tabs/2.3.0_react@16.2.0:
+  /react-tabs/2.3.0_react@16.14.0:
     resolution: {integrity: sha512-pYaefgVy76/36AMEP+B8YuVVzDHa3C5UFZ3REU78zolk0qMxEhKvUFofvDCXyLZwf0RZjxIfiwok1BEb18nHyA==}
     peerDependencies:
       react: ^0.14.9 || ^15.3.0 || ^16.0.0
     dependencies:
       classnames: 2.2.6
       prop-types: 15.8.1
-      react: 16.2.0
+      react: 16.14.0
     dev: false
 
-  /react-test-renderer/16.2.0_react@16.2.0:
-    resolution: {integrity: sha512-Kd4gJFtpNziR9ElOE/C23LeflKLZPRpNQYWP3nQBY43SJ5a+xyEGSeMrm2zxNKXcnCbBS/q1UpD9gqd5Dv+rew==}
+  /react-test-renderer/16.14.0_react@16.14.0:
+    resolution: {integrity: sha512-L8yPjqPE5CZO6rKsKXRO/rVPiaCOy0tQQJbC+UjPNlobl5mad59lvPjwFsQHTvL03caVDIVr9x9/OSgDe6I5Eg==}
     peerDependencies:
-      react: ^16.0.0
+      react: ^16.14.0
     dependencies:
-      fbjs: 0.8.18
       object-assign: 4.1.1
       prop-types: 15.8.1
-      react: 16.2.0
+      react: 16.14.0
+      react-is: 16.13.1
+      scheduler: 0.19.1
     dev: true
 
-  /react-tooltip/3.8.0_kxouedps7ii4ilphekzhaact3q:
+  /react-tooltip/3.8.0_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-Uj/vVd0uGuqwTkWeRjKS56T2iwOSvsSMbjqTK7AseHZEMND+WCXXUajaF7+ZsJWTZgnpeT9kBnaBFhchzeDTbw==}
     engines: {node: '>=4.2.1'}
     peerDependencies:
@@ -8712,11 +8864,11 @@ packages:
     dependencies:
       classnames: 2.2.6
       prop-types: 15.8.1
-      react: 16.2.0
-      react-dom: 16.2.1_react@16.2.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
     dev: false
 
-  /react-virtualized/9.20.1_kxouedps7ii4ilphekzhaact3q:
+  /react-virtualized/9.20.1_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-xIWxBsyNAjceqD3hsE0nw5TcDVxKbIepsHhvS2XneHmNz0KlKxdLdGBmGZBM9ZesEmbZ5EO0Sw70TB1MeCmpbQ==}
     peerDependencies:
       react: ^15.3.0 || ^16.0.0-alpha
@@ -8727,16 +8879,15 @@ packages:
       dom-helpers: 3.4.0
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 16.2.0
-      react-dom: 16.2.1_react@16.2.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       react-lifecycles-compat: 3.0.4
     dev: false
 
-  /react/16.2.0:
-    resolution: {integrity: sha512-ZmIomM7EE1DvPEnSFAHZn9Vs9zJl5A9H7el0EGTE6ZbW9FKe/14IYAlPbC8iH25YarEQxZL+E8VW7Mi7kfQrDQ==}
+  /react/16.14.0:
+    resolution: {integrity: sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==}
     engines: {node: '>=0.10.0'}
     dependencies:
-      fbjs: 0.8.18
       loose-envify: 1.4.0
       object-assign: 4.1.1
       prop-types: 15.8.1
@@ -8749,6 +8900,7 @@ packages:
 
   /read-package-json/2.1.2:
     resolution: {integrity: sha512-D1KmuLQr6ZSJS0tW8hf3WGpRlwszJOXZ3E8Yd/DNRaM5d+1wVRZdHlpGBLAuovjr28LbWvjpWkBHMxpRGGjzNA==}
+    deprecated: This package is no longer supported. Please use @npmcli/package-json instead.
     dependencies:
       glob: 7.2.3
       json-parse-even-better-errors: 2.3.1
@@ -9117,6 +9269,7 @@ packages:
 
   /rimraf/2.6.3:
     resolution: {integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
@@ -9224,6 +9377,12 @@ packages:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
     dev: true
 
+  /scheduler/0.19.1:
+    resolution: {integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+
   /schema-utils/0.4.7:
     resolution: {integrity: sha512-v/iwU6wvwGK8HbU9yi3/nhGzP0yGSuhQMzL6ySiec1FSrZZDkhm4noOSWzrNFo/jEc+SJY6jRTwuwbSXJPDUnQ==}
     engines: {node: '>= 4'}
@@ -9246,7 +9405,6 @@ packages:
       '@types/json-schema': 7.0.11
       ajv: 6.12.6
       ajv-keywords: 3.5.2_ajv@6.12.6
-    dev: true
 
   /schema-utils/3.1.1:
     resolution: {integrity: sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw==}
@@ -9270,21 +9428,12 @@ packages:
       text-encoding: 0.7.0
     dev: false
 
-  /scratch-svg-renderer/0.2.0-prerelease.20210727023023_jgmwvpsb5yiknzfs7zehpymxpy:
-    resolution: {integrity: sha512-vEGZFFPm03LsHeRnIVQoJBoM3dV23daZCHWM0Yb0Rwa1xvymqTWHXRx8ryL5Q94TyceuguqPVAsE66n5S/0fdQ==}
-    peerDependencies:
-      scratch-render-fonts: ^1.0.0-prerelease
-    dependencies:
-      base64-js: 1.2.1
-      base64-loader: 1.0.0
-      dompurify: 2.2.7
-      minilog: 3.1.0
-      scratch-render-fonts: 1.0.0-prerelease.20210401210003
-      transformation-matrix: 1.15.0
-    dev: false
-
   /scratch-translate-extension-languages/0.0.20191118205314:
     resolution: {integrity: sha512-r0lvpgQjPMjbhI2wROrgoXzBhCvWJdkbAqJMfl2CdNqrwBpUXqLvNNtI3VtNLPJAcp9VfxEylkU9lVZ0gvU46Q==}
+    dev: false
+
+  /seedrandom/3.0.5:
+    resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
     dev: false
 
   /select-hose/2.0.0:
@@ -9451,6 +9600,10 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
+  /simplex-noise/4.0.3:
+    resolution: {integrity: sha512-qSE2I4AngLQG7BXqoZj51jokT4WUXe8mOBrvfOXpci8+6Yu44+/dD5zqDpOx3Ux792eamTd2lLcI8jqFntk/lg==}
+    dev: false
+
   /slash/1.0.0:
     resolution: {integrity: sha512-3TYDR7xWt4dIqV2JauJr+EJeW356RXijHeUlO+8djJ+uBXPn8/2dpzBc8yQhh583sVvc9CvFAeQVgijsH+PNNg==}
     engines: {node: '>=0.10.0'}
@@ -9473,6 +9626,10 @@ packages:
       astral-regex: 1.0.0
       is-fullwidth-code-point: 2.0.0
     dev: true
+
+  /slugo/0.2.3:
+    resolution: {integrity: sha512-4nav6mk321IWKaWxgvygjp2JB0d5sNGgkPUJ+EGQZmmcvuXS+4DwdhhPa9L8WBg6fVQDID3PO+t6wYM1NqVbkA==}
+    dev: false
 
   /snapdragon-node/2.1.1:
     resolution: {integrity: sha512-O27l4xaMYt/RSQ5TR3vpWCAB5Kb/czIcqUFOM/C4fYcLnbZUc1PkjTAMjof2pBWaSTwOUd6qUHcFGVGj7aIwnw==}
@@ -9673,6 +9830,14 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       minipass: 3.3.6
+    dev: false
+
+  /standardized-audio-context/25.3.77:
+    resolution: {integrity: sha512-Ki9zNz6pKcC5Pi+QPjPyVsD9GwJIJWgryji0XL9cAJXMGyn+dPOf6Qik1AHei0+UNVcc4BOCa0hWLBzlwqsW/A==}
+    dependencies:
+      '@babel/runtime': 7.29.7
+      automation-events: 7.1.19
+      tslib: 2.8.1
     dev: false
 
   /startaudiocontext/1.2.1:
@@ -10024,6 +10189,18 @@ packages:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
+  /three-mesh-bvh/0.6.0_three@0.153.0:
+    resolution: {integrity: sha512-4/oXeqVMLuN9/P0M3L5ezIVrFiXQXKvjVTErkiSYMjSaPoWfNPAwqulSgLf4bIUPn8/Lq3rmIJwxbCuD8qDobA==}
+    peerDependencies:
+      three: '>= 0.151.0'
+    dependencies:
+      three: 0.153.0
+    dev: false
+
+  /three/0.153.0:
+    resolution: {integrity: sha512-OCP2/uQR6GcDpSLnJt/3a4mdS0kNWcbfUXIwLoEMgLzEUIVIYsSDwskpmOii/AkDM+BBwrl6+CKgrjX9+E2aWg==}
+    dev: false
+
   /throat/4.1.0:
     resolution: {integrity: sha512-wCVxLDcFxw7ujDxaeJC6nfl2XfHJNYs8yUYJnvMgtPEFlttP9tHSfRUv2vBe6C4hkVFPWoP1P6ZccbYjmSEkKA==}
     dev: true
@@ -10046,6 +10223,10 @@ packages:
     engines: {node: '>=0.6.0'}
     dependencies:
       setimmediate: 1.0.5
+
+  /tiny-emitter/2.1.0:
+    resolution: {integrity: sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==}
+    dev: false
 
   /tiny-inflate/1.0.3:
     resolution: {integrity: sha512-pkY1fj1cKHb2seWDy0B16HeWyczlJA9/WW3u3c4z/NiWDsO3DOU5D7nhTLE9CF0yXv/QZFY7sEJmj24dK+Rrqw==}
@@ -10118,6 +10299,13 @@ packages:
     engines: {node: '>=0.6'}
     dev: true
 
+  /tone/14.9.17:
+    resolution: {integrity: sha512-+Qb7M4NMua+tb5Z52+MEVmjye0fjJuIFBePx423pqr9E6/lHDqZAG+fUAvo+Ujm48q0s9bVLRAyT1ETJJglNtg==}
+    dependencies:
+      standardized-audio-context: 25.3.77
+      tslib: 2.4.1
+    dev: false
+
   /tough-cookie/2.5.0:
     resolution: {integrity: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==}
     engines: {node: '>=0.8'}
@@ -10161,7 +10349,10 @@ packages:
 
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
-    dev: true
+
+  /tslib/2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+    dev: false
 
   /tty-browserify/0.0.0:
     resolution: {integrity: sha512-JVa5ijo+j/sOoHGjw0sxw734b1LhBkQ3bvUGNdxnVXDCX81Yx7TFgnZygxrIIWn23hbfTaMYLwRmAxFyDuFmIw==}
@@ -10202,11 +10393,13 @@ packages:
       is-typed-array: 1.1.10
     dev: true
 
+  /typed-function/4.2.2:
+    resolution: {integrity: sha512-VwaXim9Gp1bngi/q3do8hgttYn2uC3MoT/gfuMWylnj1IeZBUAyPddHZlo1K05BDoj8DYPpMdiHqH1dDYdJf2A==}
+    engines: {node: '>= 18'}
+    dev: false
+
   /typedarray/0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
-
-  /ua-parser-js/0.7.32:
-    resolution: {integrity: sha512-f9BESNVhzlhEFf2CHMSj40NWOjYPl1YKYbrvIr/hFTDEmLq7SRbWvm7FcdcpCYT95zrOhC7gZSxjdnnTpBcwVw==}
 
   /uglify-es/3.3.9:
     resolution: {integrity: sha512-r+MU0rfv4L/0eeW3xZrd16t4NZfK8Ld4SWVglYBb7ez5uXFWHuVRs6xCTrf1yirs9a4j4Y27nn7SRfO6v67XsQ==}
@@ -10671,9 +10864,6 @@ packages:
       iconv-lite: 0.4.24
     dev: true
 
-  /whatwg-fetch/3.6.2:
-    resolution: {integrity: sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==}
-
   /whatwg-url/4.8.0:
     resolution: {integrity: sha512-nUvUPuenPFtPfy/X+dAYh/TfRbTBlnXTM5iIfLseJFkkQewmpG9pGR6i87E9qL+lZaJzv+99kkQWoGOtLfkZQQ==}
     dependencies:
@@ -10919,6 +11109,129 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
+  github.com/Dinosaurmod/Dinosaurmod-Blocks/c26b39ff9acc9550e1d8857c8edb2195763dee9f:
+    resolution: {tarball: https://codeload.github.com/Dinosaurmod/Dinosaurmod-Blocks/tar.gz/c26b39ff9acc9550e1d8857c8edb2195763dee9f}
+    name: scratch-blocks
+    version: 0.1.0
+    dev: false
+
+  github.com/Dinosaurmod/Dinosaurmod-Paint/0612c0912ec0b70568d24d5ee7abb9a7bbe52a3a_x55yfuywpzmu7mjw6gmxhm3h4e:
+    resolution: {tarball: https://codeload.github.com/Dinosaurmod/Dinosaurmod-Paint/tar.gz/0612c0912ec0b70568d24d5ee7abb9a7bbe52a3a}
+    id: github.com/Dinosaurmod/Dinosaurmod-Paint/0612c0912ec0b70568d24d5ee7abb9a7bbe52a3a
+    name: scratch-paint
+    version: 0.2.0
+    peerDependencies:
+      react: ^16
+      react-dom: ^16
+      react-intl: ^2
+      react-intl-redux: ^0.7
+      react-popover: ^0.5
+      react-redux: ^5
+      react-responsive: ^4
+      react-style-proptype: ^3
+      react-tooltip: ^3
+      redux: ^3
+      scratch-render-fonts: https://github.com/PenguinMod/penguinmod-render-fonts.git
+    dependencies:
+      '@turbowarp/paper': 0.12.202505131813
+      classnames: 2.2.5
+      dinosaurmod-paper: github.com/Dinosaurmod/paper.js/23c0047d2aa09b68af1950cb5c4b54755aef2ebe
+      keymirror: 0.1.1
+      lodash.bindall: 4.4.0
+      lodash.omit: 4.5.0
+      minilog: 3.1.0
+      parse-color: 1.0.0
+      prop-types: 15.8.1
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
+      react-intl: 2.9.0_4vyaxm4rsh2mpfdenvlqy7kmya
+      react-intl-redux: 0.7.0_3dwfshyg73a42s74ypg3jjw4ym
+      react-popover: 0.5.10
+      react-redux: 5.0.7_react@16.14.0+redux@3.7.2
+      react-responsive: 4.1.0_react@16.14.0
+      react-style-proptype: 3.2.2
+      react-tooltip: 3.8.0_wcqkhtmu7mswc6yz4uyexck3ty
+      redux: 3.7.2
+      scratch-render-fonts: 1.0.0-prerelease.20210401210003
+    dev: false
+
+  github.com/Dinosaurmod/Dinosaurmod-Render/da1ef0aadcd52f4285bbca954be50dca277a01db_jgmwvpsb5yiknzfs7zehpymxpy:
+    resolution: {tarball: https://codeload.github.com/Dinosaurmod/Dinosaurmod-Render/tar.gz/da1ef0aadcd52f4285bbca954be50dca277a01db}
+    id: github.com/Dinosaurmod/Dinosaurmod-Render/da1ef0aadcd52f4285bbca954be50dca277a01db
+    name: scratch-render
+    version: 0.1.0
+    peerDependencies:
+      scratch-render-fonts: github:PenguinMod/penguinmod-render-fonts#master
+    dependencies:
+      grapheme-breaker: 0.3.2
+      hull.js: 0.2.10
+      ify-loader: 1.0.4
+      linebreak: 0.3.0
+      minilog: 3.1.0
+      raw-loader: 0.5.1
+      scratch-render-fonts: 1.0.0-prerelease.20210401210003
+      scratch-svg-renderer: github.com/PenguinMod/penguinmod-svg-renderer/62a2be1e440ff6993cf5a5f5fac6f8ac60423bfb_jgmwvpsb5yiknzfs7zehpymxpy
+      twgl.js: 4.4.0
+    dev: false
+
+  github.com/Dinosaurmod/Dinosaurmod-Vm/7cb2c0fa2770c4908200fe2b54ba799273140dc6_2kabdfj55hbqv3i3frnf3bwqfq:
+    resolution: {tarball: https://codeload.github.com/Dinosaurmod/Dinosaurmod-Vm/tar.gz/7cb2c0fa2770c4908200fe2b54ba799273140dc6}
+    id: github.com/Dinosaurmod/Dinosaurmod-Vm/7cb2c0fa2770c4908200fe2b54ba799273140dc6
+    name: scratch-vm
+    version: 0.2.0
+    peerDependencies:
+      scratch-svg-renderer: github:PenguinMod/penguinmod-svg-renderer#develop
+    dependencies:
+      '@turbowarp/json': 0.1.2
+      '@vernier/godirect': 1.5.0
+      arraybuffer-loader: 1.0.8
+      atob: 2.1.2
+      btoa: 1.2.1
+      cannon-es: 0.20.0
+      canvas-toBlob: 1.0.0
+      decode-html: 2.0.0
+      diff-match-patch: 1.0.4
+      dompurify: 3.4.14
+      format-message: 6.2.1
+      htmlparser2: 3.10.1
+      immutable: 3.8.2
+      jszip: 3.10.1
+      lz-string: 1.5.0
+      mathjs: 11.11.1
+      matter-js: 0.20.0
+      mersenne-twister: 1.1.0
+      minilog: 3.1.0
+      pathfinding: 0.4.18
+      schema-utils: 2.7.1
+      scratch-parser: github.com/PenguinMod/PenguinMod-Parser/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb
+      scratch-sb1-converter: 0.2.7
+      scratch-svg-renderer: github.com/TurboWarp/scratch-svg-renderer/4c7292fb9a20b3927a3ead6643c0ca20249d12ff_jgmwvpsb5yiknzfs7zehpymxpy
+      scratch-translate-extension-languages: 0.0.20191118205314
+      simplex-noise: 4.0.3
+      text-encoding: 0.7.0
+      three: 0.153.0
+      three-mesh-bvh: 0.6.0_three@0.153.0
+      tone: 14.9.17
+      worker-loader: 1.1.1_webpack@4.46.0
+    transitivePeerDependencies:
+      - webpack
+    dev: false
+
+  github.com/Dinosaurmod/dinosaurmod-audio/04c04aa0d7c085d87b4ca678e2654a0cf490ffb4:
+    resolution: {tarball: https://codeload.github.com/Dinosaurmod/dinosaurmod-audio/tar.gz/04c04aa0d7c085d87b4ca678e2654a0cf490ffb4}
+    name: scratch-audio
+    version: 0.1.0
+    dependencies:
+      '@turbowarp/nanolog': 0.2.0
+      '@turbowarp/startaudiocontext': 1.0.0
+    dev: false
+
+  github.com/Dinosaurmod/paper.js/23c0047d2aa09b68af1950cb5c4b54755aef2ebe:
+    resolution: {tarball: https://codeload.github.com/Dinosaurmod/paper.js/tar.gz/23c0047d2aa09b68af1950cb5c4b54755aef2ebe}
+    name: dinosaurmod-paper
+    version: 0.12.7
+    dev: false
+
   github.com/FreshPenguin112/gh-pages-webpack-plugin/af8291f79f5e90f62c4f312d1fc5e4a8a2aec5b0:
     resolution: {tarball: https://codeload.github.com/FreshPenguin112/gh-pages-webpack-plugin/tar.gz/af8291f79f5e90f62c4f312d1fc5e4a8a2aec5b0}
     name: gh-pages-webpack-plugin
@@ -10940,113 +11253,16 @@ packages:
       yargs: 3.32.0
     dev: false
 
-  github.com/PenguinMod/PenguinMod-Blocks/5a2f22355274da8a07e3ccb556fdb4d4362eabb7:
-    resolution: {tarball: https://codeload.github.com/PenguinMod/PenguinMod-Blocks/tar.gz/5a2f22355274da8a07e3ccb556fdb4d4362eabb7}
-    name: scratch-blocks
-    version: 0.1.0
-    dev: false
-
-  github.com/PenguinMod/PenguinMod-Render/96ec5550992d75f9f688222d7b17a29f8db4698a_jgmwvpsb5yiknzfs7zehpymxpy:
-    resolution: {tarball: https://codeload.github.com/PenguinMod/PenguinMod-Render/tar.gz/96ec5550992d75f9f688222d7b17a29f8db4698a}
-    id: github.com/PenguinMod/PenguinMod-Render/96ec5550992d75f9f688222d7b17a29f8db4698a
-    name: scratch-render
-    version: 0.1.0
-    peerDependencies:
-      scratch-render-fonts: ^1.0.0-prerelease
+  github.com/PenguinMod/PenguinMod-MarkDown/b495ed9a54d7c2cd6a9b0ea1120b726fa9be6a91:
+    resolution: {tarball: https://codeload.github.com/PenguinMod/PenguinMod-MarkDown/tar.gz/b495ed9a54d7c2cd6a9b0ea1120b726fa9be6a91}
+    name: md
+    version: 0.6.0
     dependencies:
-      grapheme-breaker: 0.3.2
-      hull.js: 0.2.10
-      ify-loader: 1.0.4
-      linebreak: 0.3.0
-      minilog: 3.1.0
-      raw-loader: 0.5.1
-      scratch-render-fonts: 1.0.0-prerelease.20210401210003
-      scratch-svg-renderer: 0.2.0-prerelease.20210727023023_jgmwvpsb5yiknzfs7zehpymxpy
-      twgl.js: 4.4.0
+      slugo: 0.2.3
     dev: false
 
-  github.com/Penguinmod/Penguinmod-Vm/e1363170a934a5e73d9725a321799da144b2d755_cnjjgryycnetjxj63hj6pfbvmu:
-    resolution: {tarball: https://codeload.github.com/Penguinmod/Penguinmod-Vm/tar.gz/e1363170a934a5e73d9725a321799da144b2d755}
-    id: github.com/Penguinmod/Penguinmod-Vm/e1363170a934a5e73d9725a321799da144b2d755
-    name: scratch-vm
-    version: 0.2.0
-    peerDependencies:
-      scratch-svg-renderer: ^0.2.0-prerelease
-    dependencies:
-      '@turbowarp/json': 0.1.2
-      '@vernier/godirect': 1.5.0
-      arraybuffer-loader: 1.0.8
-      atob: 2.1.2
-      btoa: 1.2.1
-      canvas-toBlob: 1.0.0
-      decode-html: 2.0.0
-      diff-match-patch: 1.0.4
-      format-message: 6.2.1
-      htmlparser2: 3.10.1
-      immutable: 3.8.2
-      jszip: 3.10.1
-      minilog: 3.1.0
-      scratch-parser: github.com/TurboWarp/scratch-parser/72f2cde00fc968ce40282e0392d3553963730748
-      scratch-sb1-converter: 0.2.7
-      scratch-svg-renderer: github.com/TurboWarp/scratch-svg-renderer/3aaf933b19b55d632b6319cb05ab276528b9964d_jgmwvpsb5yiknzfs7zehpymxpy
-      scratch-translate-extension-languages: 0.0.20191118205314
-      text-encoding: 0.7.0
-      worker-loader: 1.1.1_webpack@4.46.0
-    transitivePeerDependencies:
-      - webpack
-    dev: false
-
-  github.com/TurboWarp/scratch-audio/30e31c4c5ea4b1c85fe4d579c7fef847fe64ff7b:
-    resolution: {tarball: https://codeload.github.com/TurboWarp/scratch-audio/tar.gz/30e31c4c5ea4b1c85fe4d579c7fef847fe64ff7b}
-    name: scratch-audio
-    version: 0.1.0
-    dependencies:
-      audio-context: 1.0.1
-      minilog: 3.1.0
-      startaudiocontext: 1.2.1
-    dev: false
-
-  github.com/TurboWarp/scratch-paint/b99d6e0f23d8e7a1d68d279e6af4c1da693ede31_6k6rspeql5cezdcqbrutshycvq:
-    resolution: {tarball: https://codeload.github.com/TurboWarp/scratch-paint/tar.gz/b99d6e0f23d8e7a1d68d279e6af4c1da693ede31}
-    id: github.com/TurboWarp/scratch-paint/b99d6e0f23d8e7a1d68d279e6af4c1da693ede31
-    name: scratch-paint
-    version: 0.2.0
-    peerDependencies:
-      react: ^16
-      react-dom: ^16
-      react-intl: ^2
-      react-intl-redux: ^0.7
-      react-popover: ^0.5
-      react-redux: ^5
-      react-responsive: ^4
-      react-style-proptype: ^3
-      react-tooltip: ^3
-      redux: ^3
-      scratch-render-fonts: ^1.0.0-prerelease.20210401210003
-    dependencies:
-      '@scratch/paper': 0.11.20200728195508
-      classnames: 2.2.5
-      keymirror: 0.1.1
-      lodash.bindall: 4.4.0
-      lodash.omit: 4.5.0
-      minilog: 3.1.0
-      parse-color: 1.0.0
-      prop-types: 15.8.1
-      react: 16.2.0
-      react-dom: 16.2.1_react@16.2.0
-      react-intl: 2.9.0_7b6ongk543eygvalcfff2i4m24
-      react-intl-redux: 0.7.0_3dwfshyg73a42s74ypg3jjw4ym
-      react-popover: 0.5.10
-      react-redux: 5.0.7_react@16.2.0+redux@3.7.2
-      react-responsive: 4.1.0_react@16.2.0
-      react-style-proptype: 3.2.2
-      react-tooltip: 3.8.0_kxouedps7ii4ilphekzhaact3q
-      redux: 3.7.2
-      scratch-render-fonts: 1.0.0-prerelease.20210401210003
-    dev: false
-
-  github.com/TurboWarp/scratch-parser/72f2cde00fc968ce40282e0392d3553963730748:
-    resolution: {tarball: https://codeload.github.com/TurboWarp/scratch-parser/tar.gz/72f2cde00fc968ce40282e0392d3553963730748}
+  github.com/PenguinMod/PenguinMod-Parser/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb:
+    resolution: {tarball: https://codeload.github.com/PenguinMod/PenguinMod-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb}
     name: scratch-parser
     version: 0.0.0-development
     engines: {node: '>=8.0'}
@@ -11057,9 +11273,9 @@ packages:
       pify: 4.0.1
     dev: false
 
-  github.com/TurboWarp/scratch-storage/5392b136b2e6982231023bf4bf9c14c4b890dd46_webpack@4.46.0:
-    resolution: {tarball: https://codeload.github.com/TurboWarp/scratch-storage/tar.gz/5392b136b2e6982231023bf4bf9c14c4b890dd46}
-    id: github.com/TurboWarp/scratch-storage/5392b136b2e6982231023bf4bf9c14c4b890dd46
+  github.com/PenguinMod/PenguinMod-Storage/687019085e83fc83d39f3b96b41f229e8d95d6bc_webpack@4.46.0:
+    resolution: {tarball: https://codeload.github.com/PenguinMod/PenguinMod-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc}
+    id: github.com/PenguinMod/PenguinMod-Storage/687019085e83fc83d39f3b96b41f229e8d95d6bc
     name: scratch-storage
     version: 0.0.0-development
     dependencies:
@@ -11068,24 +11284,40 @@ packages:
       fastestsmallesttextencoderdecoder: 1.0.22
       js-md5: 0.7.3
       minilog: 3.1.0
+      pmp-protobuf: 1.8.5
       worker-loader: 2.0.0_webpack@4.46.0
     transitivePeerDependencies:
       - webpack
     dev: false
 
-  github.com/TurboWarp/scratch-svg-renderer/3aaf933b19b55d632b6319cb05ab276528b9964d_jgmwvpsb5yiknzfs7zehpymxpy:
-    resolution: {tarball: https://codeload.github.com/TurboWarp/scratch-svg-renderer/tar.gz/3aaf933b19b55d632b6319cb05ab276528b9964d}
-    id: github.com/TurboWarp/scratch-svg-renderer/3aaf933b19b55d632b6319cb05ab276528b9964d
-    name: scratch-svg-renderer
-    version: 0.2.0
+  github.com/PenguinMod/penguinmod-svg-renderer/62a2be1e440ff6993cf5a5f5fac6f8ac60423bfb_jgmwvpsb5yiknzfs7zehpymxpy:
+    resolution: {tarball: https://codeload.github.com/PenguinMod/penguinmod-svg-renderer/tar.gz/62a2be1e440ff6993cf5a5f5fac6f8ac60423bfb}
+    id: github.com/PenguinMod/penguinmod-svg-renderer/62a2be1e440ff6993cf5a5f5fac6f8ac60423bfb
+    name: '@turbowarp/scratch-svg-renderer'
+    version: 1.0.0
     peerDependencies:
-      scratch-render-fonts: ^1.0.0-prerelease
+      scratch-render-fonts: github:PenguinMod/penguinmod-render-fonts#master
     dependencies:
+      '@turbowarp/nanolog': 0.2.0
       base64-js: 1.2.1
       base64-loader: 1.0.0
-      dompurify: 2.2.7
-      fastestsmallesttextencoderdecoder: 1.0.22
-      minilog: 3.1.0
+      dompurify: 2.5.9
+      scratch-render-fonts: 1.0.0-prerelease.20210401210003
+      transformation-matrix: 1.15.0
+    dev: false
+
+  github.com/TurboWarp/scratch-svg-renderer/4c7292fb9a20b3927a3ead6643c0ca20249d12ff_jgmwvpsb5yiknzfs7zehpymxpy:
+    resolution: {tarball: https://codeload.github.com/TurboWarp/scratch-svg-renderer/tar.gz/4c7292fb9a20b3927a3ead6643c0ca20249d12ff}
+    id: github.com/TurboWarp/scratch-svg-renderer/4c7292fb9a20b3927a3ead6643c0ca20249d12ff
+    name: '@turbowarp/scratch-svg-renderer'
+    version: 1.1.0
+    peerDependencies:
+      scratch-render-fonts: github:TurboWarp/scratch-render-fonts#master
+    dependencies:
+      '@turbowarp/nanolog': 0.2.0
+      base64-js: 1.2.1
+      base64-loader: 1.0.0
+      dompurify: 3.4.14
       scratch-render-fonts: 1.0.0-prerelease.20210401210003
       transformation-matrix: 1.15.0
     dev: false

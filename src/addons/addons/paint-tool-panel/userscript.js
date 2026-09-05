@@ -1,7 +1,12 @@
 // Costume Tool Panel
 // By: SharkPool & DogeisCut
-export default async function () {
+import AddonHooks from '../../hooks';
+
+export default async function ({ addon }) {
+    const vm = addon.tab.traps.vm;
     const runtime = vm.runtime;
+    const paper = await addon.tab.traps.getPaper();
+    const ReduxStore = AddonHooks.appStateStore;
     const isPM = true;
 
     const panelTag = Symbol("costume-tools-tag");
