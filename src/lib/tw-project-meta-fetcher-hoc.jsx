@@ -52,6 +52,12 @@ const setIndexable = indexable => {
     }
 };
 
+const setPrivateSkinAccess = (vm, enabled) => {
+    if (vm && vm.runtime && vm.runtime.renderer && vm.runtime.renderer.setPrivateSkinAccess) {
+        vm.runtime.renderer.setPrivateSkinAccess(enabled);
+    }
+};
+
 const TWProjectMetaFetcherHOC = function (WrappedComponent) {
     class ProjectMetaFetcherComponent extends React.Component {
         shouldComponentUpdate(nextProps) {
@@ -59,8 +65,7 @@ const TWProjectMetaFetcherHOC = function (WrappedComponent) {
         }
         componentDidUpdate() {
             // project title resetting is handled in titled-hoc.jsx
-            if (this.props.vm.runtime.renderer.setPrivateSkinAccess)
-                this.props.vm.runtime.renderer.setPrivateSkinAccess(true);
+            setPrivateSkinAccess(this.props.vm, true);
             this.props.onSetAuthor('', '');
             this.props.onSetDescription('', '');
             this.props.onSetRemixedProjectInfo(false, '', '');
@@ -140,8 +145,7 @@ const TWProjectMetaFetcherHOC = function (WrappedComponent) {
                     setIndexable(true);
                 })
                 .catch(err => {
-                    if (this.props.vm.runtime.renderer.setPrivateSkinAccess)
-                        this.props.vm.runtime.renderer.setPrivateSkinAccess(false);
+                    setPrivateSkinAccess(this.props.vm, false);
                     setIndexable(false);
                     if (`${err}`.includes('unshared')) {
                         this.props.onSetDescription('unshared', 'unshared');
