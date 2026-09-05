@@ -1,5 +1,5 @@
 {
-  "name": "scratch-gui",
+  "name": "dinosaurmod",
   "version": "0.1.0",
   "description": "GraphicaL User Interface for creating and running Scratch 3.0 projects",
   "main": "./dist/scratch-gui.js",
@@ -22,10 +22,10 @@
   "author": "Massachusetts Institute of Technology",
   "license": "GPL-3.0",
   "private": true,
-  "homepage": "https://github.com/LLK/scratch-gui#readme",
+  "homepage": "https://dinosaurmod.github.io",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/LLK/scratch-gui.git"
+    "url": "git+https://github.com/Dinosaurmod/dinosaurmod.github.io.git"
   },
   "dependencies": {
     "@turbowarp/scratch-l10n": "^3.999.20221220224553",
