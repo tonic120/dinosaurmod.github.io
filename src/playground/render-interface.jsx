@@ -173,7 +173,7 @@ const Footer = () => (
                     </a>
                 </div>
                 <div className={styles.footerSection}>
-                    <a href="https://dinosaurmod.github.io/Dinosaurmod-Packager">
+                    <a href="/Dinosaurmod-Packager">
                         {/* Do not translate */}
                         {'DinosaurMod Packager'}
                     </a>
@@ -493,7 +493,7 @@ class Interface extends React.Component {
                                                 color: '#7DD100',
                                                 cursor: 'pointer'
                                             }}
-                                            href={'https://dinosaurmod.github.io/Dino-Home'}
+                                            href={'/'}
                                         >
                                             Dinosaurmod
                                         </a>

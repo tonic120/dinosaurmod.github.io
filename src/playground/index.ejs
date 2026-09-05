@@ -7,7 +7,7 @@
     <meta name="description" content="DinosaurMod is a Mod of Penguinmod that adds more blocks, extensions and new features." />
     <title><%= htmlWebpackPlugin.options.title %></title>
     <link rel="apple-touch-icon" href="<%= htmlWebpackPlugin.options.root %>images/apple-touch-icon.png">
-    <link rel="icon" type="image/x-icon" href="https://dinosaurmod.github.io/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="<%= htmlWebpackPlugin.options.root %>favicon.ico">
     <% if (htmlWebpackPlugin.options.root === "/" || htmlWebpackPlugin.options.root === "") { %>
       <link rel="manifest" href="<%= htmlWebpackPlugin.options.root %>manifest.webmanifest">
     <% } %>
@@ -68,7 +68,7 @@
           const evt = new Event('click');
           document.dispatchEvent(evt);
           while (true) {
-            const thisAudio = new Audio('https://dinosaurmod.github.io/this.mp3');
+            const thisAudio = new Audio('<%= htmlWebpackPlugin.options.root %>this.mp3');
             const waittillthis = Math.floor(Math.random() * (2500 * 100)) + 1
             const thise = document.createElement("div");
             thise.style.display = "none";

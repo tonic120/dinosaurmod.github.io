@@ -28,14 +28,14 @@ const isTrustedExtension = url => (
     url.startsWith('https://gabsthecuriouskid.github.io/DinosaurModExtensions/') ||
     url.startsWith('https://sharkpools-extensions.vercel.app/') ||
     url.startsWith('https://streamilator.github.io/') ||
-    url.startsWith('https://dinosaurmod.github.io/') ||
+    url.startsWith('https://dinoresearch.ra3.us/') ||
     url.startsWith('https://mikedev101.github.io/') ||
     url.startsWith('https://turbololder.vercel.app/') ||
     url.startsWith('https://sayamindu.github.io/scratch-extensions/') ||
     url.startsWith('https://ldsjvg.webwave.dev/') ||
     url.startsWith('https://electramod-extensions-gallery.vercel.app/') ||
     url.startsWith('https://pen-group.github.io/') || // Pen-Group / ObviousAlexC
-    url.startsWith('https://dinosaurmod.github.io/extensions/') ||
+    url.startsWith('https://dinoresearch.ra3.us/extensions/') ||
     url.startsWith('https://raw.githubusercontent.com/Dinosaurmod/extensions/refs/heads/main/src/extensions') ||
 
     // For development.

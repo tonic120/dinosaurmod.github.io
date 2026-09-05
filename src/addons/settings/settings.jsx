@@ -264,7 +264,7 @@ const Tags = ({ manifest }) => (
                 style={{display: "inline-flex", alignItems: "center", gap: "5px"}}
             >
                 <img
-                    src="https://dinosaurmod.github.io/favicon.ico"
+                     src="/favicon.ico"
                     style={{width: "13px", height: "13px"}}
                     alt="DinosaurMod Icon"
                 />

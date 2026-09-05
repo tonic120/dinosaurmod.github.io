@@ -1373,7 +1373,7 @@ const menuItems = [
     },
     {
         name: 'Save Data',
-        extensionId: 'https://dinosaurmod.github.io/savedata.js',
+        extensionId: '/savedata.js',
         iconURL: 'https://snail-ide.js.org/static/assets/14ea6745b6f8a3c8e3cb4d3392f04573.svg',
         insetIconURL: PenguinmodThumb,
         collaborator: 'Snail IDE (Slighty modified from their extension)',
@@ -1728,7 +1728,7 @@ const menuItems = [
                 id="dm.extraLibraryExtensions.name"
             />
         ),
-        href: 'https://dinosaurmod.github.io/extensions/',
+        href: '/extensions/',
         extensionId: 'special_dinosaurmodExtensionLibrary',
         iconURL: dmGalleryIcon,
         description: 'See some dinosaurmod and user-submitted extensions. Opens in a new tab.',

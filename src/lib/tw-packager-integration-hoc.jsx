@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import log from './log';
 import {getIsShowingProject} from '../reducers/project-state';
 
-const PACKAGER_URL = 'https://dinosaurmod.github.io/Dinosaurmod-Packager';//'https://studio.penguinmod.com/PenguinMod-Packager';
-const PACKAGER_ORIGIN = "https://dinosaurmod.github.io";//"https://studio.penguinmod.com";
+const PACKAGER_URL = '/Dinosaurmod-Packager';//'https://studio.penguinmod.com/PenguinMod-Packager';
+const PACKAGER_ORIGIN = window.location.origin;//"https://studio.penguinmod.com";
 
 const PackagerIntegrationHOC = function (WrappedComponent) {
     class PackagerIntegrationComponent extends React.Component {
@@ -22,7 +22,6 @@ const PackagerIntegrationHOC = function (WrappedComponent) {
         }
         handleClickPackager () {
             if (this.props.canOpenPackager) {
-                window.open(`${PACKAGER_URL}/?import_from=${location.origin}`);
                 window.open(`${PACKAGER_URL}/?import_from=${location.origin}`);
             }
         }
