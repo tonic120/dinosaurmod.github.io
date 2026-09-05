@@ -220,6 +220,10 @@ module.exports = [
                     {
                         from: 'static',
                         to: ''
+                    },
+                    {
+                        from: 'CNAME',
+                        to: 'CNAME'
                     }
                 ]
             }),
